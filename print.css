@@ -1,0 +1,43 @@
+/* Reset Styles
+========================== */
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5;
+	font: 13px Arial, Helvetica, "Lucida Grande", serif;
+	color: #000;
+	text-align: center;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Hide elements
+========================== */
+nav, #footer-twitter, #footer-linkedin, #footer-facebook, i, footer p {
+	display: none;
+}
+
+/* General fixes
+========================== */
+ul, ol, li {
+	list-style: none;
+	padding: 5px 0 0 5px;
+}
+.brand {
+	font-size: 0;
+}
+
+/* Additional elements
+========================== */
+#footer-email:before {
+	content: 'Email: ';
+}
+#footer-telephone:before {
+	content: 'Telephone: ';
+}
+.brand:before {
+	content: url("images/logo.png");
+}
