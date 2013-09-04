@@ -1,5 +1,5 @@
 /*
-Theme Name:     Tom's Kitchen
+Theme Name:     Engage - Tom's Kitchen
 Description:    Website theme for Tom's Kitchen
 Author:         Post Creative
 Author URI:     http://postcreative.co.uk
@@ -478,6 +478,9 @@ input.btn.search-submit {
     border-width: 1px;
 }
 
+
+
+
 .widget {
     border-bottom: none;
     margin-bottom:0;
@@ -489,8 +492,11 @@ img.attachment-medium-main.wp-post-image {
     margin-bottom: 20px;
 }
 
-a.pinterest {
-    display: none;
+.vcard .pinterest {
+background-image: none;
+display: none;
+height: 0;
+width: 0;
 }
 
 
@@ -520,4 +526,16 @@ blockquote p  {
 
 .menu-drinks div.menu-sep.cup, .menu-drinks h2{
     display: none;
+}
+
+
+
+
+div.addthis_toolbox.addthis_default_style.addthis_ {
+    margin-top: 20px;
+}
+
+
+.single-menu div.addthis_toolbox.addthis_default_style.addthis_ {
+    margin-left: 250px;
 }
